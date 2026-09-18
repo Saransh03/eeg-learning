@@ -1,0 +1,8 @@
+DATASET = "ds003838"
+ROOT = "./eeg_data"
+N_SUBJECTS = 5
+FRONTAL_CHANNELS = ['Fz', 'F3', 'F4']
+PARIETAL_CHANNELS = ['Pz', 'P3', 'P4']
+THETA_BAND = (4, 8)
+ALPHA_BAND = (8, 13)
+FEATURES_FILE = "features.npz"
